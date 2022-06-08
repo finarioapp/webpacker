@@ -1,6 +1,6 @@
 require "yaml"
-require "active_support/core_ext/hash/keys"
 require "active_support/core_ext/hash/indifferent_access"
+require_relative "../extensions/hash"
 
 class Webpacker::Configuration
   class << self
